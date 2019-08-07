@@ -6,8 +6,8 @@ def summon_captain_planet (arr)
   arr.collect {|elemental| "#{elemental.capitalize}!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls (arr)
+  arr.reduce {|elemental| if elemental.length > 4 return true}
 end
 
 def find_the_cheese# code an argument here
