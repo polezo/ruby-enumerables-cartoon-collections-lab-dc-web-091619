@@ -7,7 +7,7 @@ def summon_captain_planet (arr)
 end
 
 def long_planeteer_calls (arr)
-  arr.reduce {|elemental| if elemental.length > 4 return true end}
+  arr.reduce {|elemental| if elemental.length > 4 do return true end}
 end
 
 def find_the_cheese# code an argument here
