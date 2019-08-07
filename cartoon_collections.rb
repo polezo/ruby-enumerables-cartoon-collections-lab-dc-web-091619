@@ -11,6 +11,6 @@ def long_planeteer_calls (arr)
 end
 
 def find_the_cheese (arr)
-arr
   cheese_types = ["cheddar", "gouda", "camembert"]
+  arr.find {|memo| cheese_types.each == memo
 end
